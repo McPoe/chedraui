@@ -1,0 +1,14 @@
+.hero-banner{
+	height: 100vh;
+	background-image: url('img/hero-banner.jpg');
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-size: cover;
+	justify-content: center;
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+          .titles {
+            margin-top: 450px; } }
