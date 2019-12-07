@@ -5,10 +5,10 @@ margin: 0px;
 font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-div.bgIMG
+body.bgIMG
 {
-	height: 100vh;
-	background-image: url('../img/hero-banner.jpg');
+	min-height: 100vh;
+	background-image: url('../img/bg_banner.jpg');
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -33,15 +33,10 @@ div.bgIMG
 	position: absolute;
 }
 
+
 .inform{
 	position: absolute;
 	top: 15vh;
-}
-
-@media only screen and (max-width: 776px) {
-  .inform{
-	top: 10vh;
-	}
 }
 
 .textes{
@@ -60,7 +55,7 @@ p.textes{
 }
 
 img.icons{
-	width: 180px;
+	max-width: 180px;
 }
 
 .icons:hover{
@@ -85,7 +80,7 @@ img.icons{
 	}
 
 	img.icons{
-	width: 100px;
+	max-width: 75px;
 	}
 
 	h1.textes{
@@ -94,5 +89,9 @@ img.icons{
 
 	p.textes{
 		font-size: 20px;
+	}
+
+	.iconos{
+		margin-top: 5vh;
 	}
 }
