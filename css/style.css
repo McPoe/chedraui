@@ -80,6 +80,7 @@ img.icons{
 	display: fixed;
 	height: auto;
 	bottom: 0px;
+	position: absolute;
 }
 
 @media only screen and (max-width: 776px) {
@@ -101,4 +102,10 @@ img.icons{
 	p.textes{
 		font-size: 20px;
 	}
+
+	.footdynamic{
+		width: 100%;
+		height: auto;
+		bottom: 0px;
+}
 }
