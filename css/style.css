@@ -33,6 +33,10 @@ body.bgIMG
 	position: absolute;
 }
 
+.logochedr{
+	width: 160px;
+	padding: 10px 0;
+}
 
 .inform{
 	position: absolute;
@@ -73,6 +77,10 @@ img.icons{
 }
 
 @media only screen and (max-width: 776px) {
+  .logochedr{
+  	width: 100px;
+  }
+
   .inform{
 	top: 10vh;
 	}
