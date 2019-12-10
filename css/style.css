@@ -80,7 +80,6 @@ img.icons{
 	display: fixed;
 	height: auto;
 	bottom: 0px;
-	position: absolute;
 }
 
 @media only screen and (max-width: 776px) {
