@@ -73,7 +73,7 @@ img.icons{
 	width: 100%;
 	height: auto;
 	bottom: 0px;
-	position: absolute;
+	position: fixed !important;
 }
 
 @media only screen and (max-width: 776px) {
