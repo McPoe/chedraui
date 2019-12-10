@@ -38,6 +38,11 @@ body.bgIMG
 	padding: 10px 0;
 }
 
+.divmiddle{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 .inform{
 	position: absolute;
 	top: 15vh;
@@ -80,7 +85,12 @@ img.icons{
 @media only screen and (max-width: 776px) {
   .logochedr{
   	width: 100px;
-  }
+  	}
+
+  .divmiddle{
+	margin-top: 50px;
+	margin-bottom: 0px;	
+	}
 
   .inform{
 	top: 10vh;
