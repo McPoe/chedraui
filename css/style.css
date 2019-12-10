@@ -73,7 +73,6 @@ img.icons{
 .footdynamic{
 	width: 100%;
 	display: fixed;
-	background: rgba(255,255,255,.7);
 	height: auto;
 	bottom: 0px;
 	position: absolute;
