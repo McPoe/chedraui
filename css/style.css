@@ -114,9 +114,8 @@ img.icons{
 
 	.footdynamic{
 	width: 100%;
-	display: fixed;
 	height: auto;
 	bottom: 0px;
-	position: relative;
+	position: relative !important;
 }
 }
