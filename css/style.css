@@ -7,8 +7,8 @@ font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 
 body.bgIMG
 {
-	height: 100vh;
-	background-image: url('../img/hero-banner.jpg');
+	min-height: 100vh;
+	background-image: url('../img/bg_banner.jpg');
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -38,15 +38,14 @@ body.bgIMG
 	padding: 10px 0;
 }
 
+.divmiddle{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 .inform{
 	position: absolute;
 	top: 15vh;
-}
-
-@media only screen and (max-width: 776px) {
-  .inform{
-	top: 10vh;
-	}
 }
 
 .textes{
@@ -65,7 +64,7 @@ p.textes{
 }
 
 img.icons{
-	width: 120px;
+	max-width: 180px;
 }
 
 .icons:hover{
@@ -86,13 +85,19 @@ img.icons{
 @media only screen and (max-width: 776px) {
   .logochedr{
   	width: 100px;
-  }
+  	}
+
+  .divmiddle{
+	margin-top: 70px;
+	margin-bottom: 0px;	
+	}
+
   .inform{
 	top: 10vh;
 	}
 
 	img.icons{
-	width: 100px;
+	max-width: 75px;
 	}
 
 	h1.textes{
@@ -103,9 +108,14 @@ img.icons{
 		font-size: 20px;
 	}
 
+	.iconos{
+		margin-top: 5vh;
+	}
+
 	.footdynamic{
-		width: 100%;
-		height: auto;
-		bottom: 0px;
+	width: 100%;
+	height: auto;
+	bottom: 0px;
+	position: relative !important;
 }
 }
